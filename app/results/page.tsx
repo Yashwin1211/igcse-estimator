@@ -76,8 +76,17 @@ export default function ResultsPage() {
   return (
     <main className="min-h-screen" style={{ background: '#0C0C0C' }}>
       {/* Nav */}
-      <nav className="flex items-center justify-between px-8 py-5" style={{ borderBottom: '1px solid #1E1E1E' }}>
-        <Link href="/" className="font-display text-lg tracking-wide" style={{ color: '#F5F5F0' }}>
+      <nav
+        className="flex items-center justify-between px-8 py-5"
+        style={{
+          borderBottom: '1px solid rgba(30,30,30,0.8)',
+          background: 'rgba(12,12,12,0.8)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          boxShadow: '0 1px 0 rgba(255,255,255,0.03) inset',
+        }}
+      >
+        <Link href="/dashboard" className="font-display text-lg tracking-wide" style={{ color: '#F5F5F0' }}>
           Threshold
         </Link>
         <div className="flex items-center gap-3">

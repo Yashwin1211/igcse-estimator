@@ -25,15 +25,25 @@ export async function proxy(request: NextRequest) {
     }
   )
 
+  // Calling getUser() here refreshes the session token on every request
   const {
     data: { user },
   } = await supabase.auth.getUser()
 
+  const path = request.nextUrl.pathname
+
+  // Redirect logged-in users away from auth pages straight to dashboard
+  if (user && path.startsWith('/auth/')) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/dashboard'
+    return NextResponse.redirect(url)
+  }
+
   // Protect /dashboard — redirect unauthenticated users to login
-  if (!user && request.nextUrl.pathname.startsWith('/dashboard')) {
+  if (!user && path.startsWith('/dashboard')) {
     const url = request.nextUrl.clone()
     url.pathname = '/auth/login'
-    url.searchParams.set('redirect', request.nextUrl.pathname)
+    url.searchParams.set('redirect', path)
     return NextResponse.redirect(url)
   }
 

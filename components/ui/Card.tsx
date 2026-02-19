@@ -37,10 +37,10 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
           'rounded-sm border transition-all duration-200',
           elevated ? 'bg-surface-elevated' : 'bg-surface',
           selected
-            ? 'border-gold/50 shadow-[0_0_0_1px_rgba(201,169,110,0.15)]'
-            : 'border-border',
+            ? 'border-gold/50 shadow-[0_0_0_1px_rgba(201,169,110,0.12),0_1px_0_rgba(255,255,255,0.05)_inset,0_8px_24px_rgba(0,0,0,0.5)]'
+            : 'border-border shadow-[0_1px_0_rgba(255,255,255,0.03)_inset,0_4px_16px_rgba(0,0,0,0.3)]',
           hoverable
-            ? 'hover:border-border hover:bg-surface-elevated cursor-pointer'
+            ? 'hover:border-gold/20 hover:bg-surface-elevated hover:shadow-[0_1px_0_rgba(255,255,255,0.05)_inset,0_8px_24px_rgba(0,0,0,0.45)] cursor-pointer'
             : '',
           paddings[padding],
           className,
@@ -83,8 +83,8 @@ export function AnimatedCard({
         'rounded-sm border transition-colors duration-200',
         elevated ? 'bg-surface-elevated' : 'bg-surface',
         selected
-          ? 'border-gold/50 shadow-[0_0_0_1px_rgba(201,169,110,0.15)]'
-          : 'border-border',
+          ? 'border-gold/50 shadow-[0_0_0_1px_rgba(201,169,110,0.12),0_1px_0_rgba(255,255,255,0.05)_inset,0_8px_24px_rgba(0,0,0,0.5)]'
+          : 'border-border shadow-[0_1px_0_rgba(255,255,255,0.03)_inset,0_4px_16px_rgba(0,0,0,0.3)]',
         paddings[padding],
         className,
       ]

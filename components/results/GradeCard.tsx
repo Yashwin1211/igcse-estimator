@@ -36,7 +36,11 @@ export function GradeCard({ result, index }: GradeCardProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.08, duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
       className="rounded-sm border p-6"
-      style={{ background: '#141414', borderColor: '#2A2A2A' }}
+      style={{
+        background: 'linear-gradient(160deg, #181818 0%, #141414 100%)',
+        borderColor: '#2A2A2A',
+        boxShadow: '0 1px 0 rgba(255,255,255,0.04) inset, 0 8px 32px rgba(0,0,0,0.4)',
+      }}
     >
       {/* Header row */}
       <div className="flex items-start justify-between mb-6">

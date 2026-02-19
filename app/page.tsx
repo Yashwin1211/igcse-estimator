@@ -1,8 +1,11 @@
 'use client'
 
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui'
+import { createClient } from '@/lib/supabase/client'
 
 const steps = [
   {
@@ -28,11 +31,28 @@ const steps = [
 ]
 
 export default function LandingPage() {
+  const router = useRouter()
+
+  useEffect(() => {
+    const supabase = createClient()
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      if (user) router.replace('/dashboard')
+    })
+  }, [router])
+
   return (
     <main className="min-h-screen" style={{ background: '#0C0C0C' }}>
       {/* Nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5"
-        style={{ borderBottom: '1px solid #1E1E1E', background: 'rgba(12,12,12,0.85)', backdropFilter: 'blur(12px)' }}>
+      <nav
+        className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5"
+        style={{
+          borderBottom: '1px solid rgba(42,42,42,0.8)',
+          background: 'rgba(12,12,12,0.75)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          boxShadow: '0 1px 0 rgba(255,255,255,0.03) inset',
+        }}
+      >
         <span className="font-display text-lg tracking-wide" style={{ color: '#F5F5F0' }}>
           Threshold
         </span>
@@ -52,11 +72,19 @@ export default function LandingPage() {
 
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-8 text-center pt-20 relative">
+        {/* Subtle radial glow behind hero text */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: 'radial-gradient(ellipse 60% 40% at 50% 45%, rgba(201,169,110,0.06) 0%, transparent 70%)',
+          }}
+        />
+
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-          className="max-w-3xl mx-auto"
+          className="max-w-3xl mx-auto relative"
         >
           <div className="mb-6">
             <span
@@ -143,7 +171,10 @@ export default function LandingPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="p-10 group"
-                style={{ background: '#0C0C0C' }}
+                style={{
+                  background: '#0C0C0C',
+                  boxShadow: '0 1px 0 rgba(255,255,255,0.02) inset',
+                }}
               >
                 <div
                   className="text-xs tracking-[0.2em] mb-4"

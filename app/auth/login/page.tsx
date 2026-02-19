@@ -97,7 +97,11 @@ export default function LoginPage() {
 
         <div
           className="rounded-sm border p-8"
-          style={{ background: '#141414', borderColor: '#2A2A2A' }}
+          style={{
+            background: 'linear-gradient(160deg, #181818 0%, #141414 100%)',
+            borderColor: '#2A2A2A',
+            boxShadow: '0 1px 0 rgba(255,255,255,0.04) inset, 0 12px 40px rgba(0,0,0,0.5)',
+          }}
         >
           <h1
             className="font-display text-2xl font-light mb-1"

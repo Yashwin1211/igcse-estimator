@@ -58,24 +58,24 @@ async function seedSubjects(): Promise<Record<string, string>> {
 
     subjectCodeToId[config.code] = subject.id
 
-    // Upsert papers
+    // Delete existing papers then re-insert — avoids PostgreSQL NULL uniqueness issues
+    await supabase.from('papers').delete().eq('subject_id', subject.id)
+
     const paperRows = config.papers.map((p) => ({
-      subject_id:       subject.id,
-      paper_number:     p.paper_number,
-      name:             p.name,
-      tier:             p.tier ?? null,
-      is_ums:           p.is_ums,
-      max_raw_mark:     p.max_raw_mark,
-      max_ums_mark:     p.max_ums_mark ?? null,
+      subject_id:        subject.id,
+      paper_number:      p.paper_number,
+      name:              p.name,
+      tier:              p.tier ?? null,
+      is_ums:            p.is_ums,
+      max_raw_mark:      p.max_raw_mark,
+      max_ums_mark:      p.max_ums_mark ?? null,
       weight_percentage: p.weight_percentage,
     }))
 
-    const { error: papersError } = await supabase
-      .from('papers')
-      .upsert(paperRows, { onConflict: 'subject_id,paper_number,tier' })
+    const { error: papersError } = await supabase.from('papers').insert(paperRows)
 
     if (papersError) {
-      console.error(`  ERROR upserting papers for ${config.code}: ${papersError.message}`)
+      console.error(`  ERROR inserting papers for ${config.code}: ${papersError.message}`)
     } else {
       console.log(`  ✓ ${config.name} (${config.code}) — ${config.papers.length} papers`)
     }

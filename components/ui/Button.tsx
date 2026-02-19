@@ -15,11 +15,11 @@ interface ButtonProps extends Omit<HTMLMotionProps<'button'>, 'ref'> {
 
 const variants: Record<Variant, string> = {
   primary:
-    'bg-gold text-bg font-medium hover:bg-gold/90 border border-gold',
+    'bg-gold text-bg font-medium border border-gold/80 shadow-[0_1px_0_rgba(255,255,255,0.15)_inset,0_4px_12px_rgba(201,169,110,0.2)] hover:brightness-110 hover:shadow-[0_1px_0_rgba(255,255,255,0.2)_inset,0_4px_16px_rgba(201,169,110,0.3)]',
   ghost:
     'bg-transparent text-text-secondary hover:text-text-primary hover:bg-surface-elevated border border-transparent',
   outline:
-    'bg-transparent text-text-primary border border-border hover:border-gold/50 hover:text-gold',
+    'bg-transparent text-text-primary border border-border hover:border-gold/50 hover:text-gold shadow-[0_1px_0_rgba(255,255,255,0.03)_inset]',
   danger:
     'bg-transparent text-error border border-error/30 hover:bg-error/10',
 }
