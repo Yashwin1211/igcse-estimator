@@ -157,26 +157,25 @@ async function updatePaperMaxMarks(subjectCodeToId: Record<string, string>) {
 
   const components: ParsedComponent[] = JSON.parse(readFileSync(componentsPath, 'utf-8'))
 
-  // Aggregate: for each subject+paper_number, take the most common max_mark across years
-  const marksByPaper: Record<string, number[]> = {}
+  // Aggregate: for each subject+paper_number, take the mark from the most recent year
+  const latestByPaper: Record<string, { year: number; max_mark: number }> = {}
   for (const c of components) {
     const key = `${c.syllabus_code}_${c.paper_number}`
-    marksByPaper[key] = marksByPaper[key] ?? []
-    marksByPaper[key].push(c.max_mark)
+    const existing = latestByPaper[key]
+    if (!existing || c.year > existing.year) {
+      latestByPaper[key] = { year: c.year, max_mark: c.max_mark }
+    }
   }
 
   let updated = 0
-  for (const [key, marks] of Object.entries(marksByPaper)) {
+  for (const [key, { max_mark }] of Object.entries(latestByPaper)) {
     const [code, paperNum] = key.split('_')
     const subjectId = subjectCodeToId[code]
     if (!subjectId || paperNum === '0') continue  // skip coursework components
 
-    // Use the most common mark across years (mode)
-    const mode = marks.sort().slice(Math.floor(marks.length / 2))[0]
-
     const { error } = await supabase
       .from('papers')
-      .update({ max_raw_mark: mode })
+      .update({ max_raw_mark: max_mark })
       .eq('subject_id', subjectId)
       .eq('paper_number', paperNum)
 

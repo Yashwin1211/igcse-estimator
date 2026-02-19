@@ -3,7 +3,7 @@
   "name": "Computer Science",
   "has_tiers": false,
   "papers": [
-    { "paper_number": "1", "name": "Paper 1: Theory", "tier": null, "is_ums": false, "max_raw_mark": 75, "weight_percentage": 50, "max_ums_mark": null },
-    { "paper_number": "2", "name": "Paper 2: Problem Solving and Programming", "tier": null, "is_ums": false, "max_raw_mark": 50, "weight_percentage": 50, "max_ums_mark": null }
+    { "paper_number": "1", "name": "Paper 1: Computer Systems", "tier": null, "is_ums": false, "max_raw_mark": 75, "weight_percentage": 50, "max_ums_mark": null },
+    { "paper_number": "2", "name": "Paper 2: Algorithms, Programming and Logic", "tier": null, "is_ums": false, "max_raw_mark": 75, "weight_percentage": 50, "max_ums_mark": null }
   ]
 }

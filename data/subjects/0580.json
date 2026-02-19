@@ -3,9 +3,9 @@
   "name": "Mathematics",
   "has_tiers": true,
   "papers": [
-    { "paper_number": "1", "name": "Paper 1: Short Answer (Core)", "tier": "Core", "is_ums": false, "max_raw_mark": 56, "weight_percentage": 35, "max_ums_mark": null },
-    { "paper_number": "3", "name": "Paper 3: Core Theory", "tier": "Core", "is_ums": false, "max_raw_mark": 104, "weight_percentage": 65, "max_ums_mark": null },
-    { "paper_number": "2", "name": "Paper 2: Short Answer (Extended)", "tier": "Extended", "is_ums": false, "max_raw_mark": 70, "weight_percentage": 35, "max_ums_mark": null },
-    { "paper_number": "4", "name": "Paper 4: Extended Theory", "tier": "Extended", "is_ums": false, "max_raw_mark": 130, "weight_percentage": 65, "max_ums_mark": null }
+    { "paper_number": "1", "name": "Paper 1: Non-calculator (Core)", "tier": "Core", "is_ums": false, "max_raw_mark": 80, "weight_percentage": 50, "max_ums_mark": null },
+    { "paper_number": "3", "name": "Paper 3: Calculator (Core)", "tier": "Core", "is_ums": false, "max_raw_mark": 80, "weight_percentage": 50, "max_ums_mark": null },
+    { "paper_number": "2", "name": "Paper 2: Non-calculator (Extended)", "tier": "Extended", "is_ums": false, "max_raw_mark": 100, "weight_percentage": 50, "max_ums_mark": null },
+    { "paper_number": "4", "name": "Paper 4: Calculator (Extended)", "tier": "Extended", "is_ums": false, "max_raw_mark": 100, "weight_percentage": 50, "max_ums_mark": null }
   ]
 }

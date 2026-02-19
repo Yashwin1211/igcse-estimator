@@ -4,7 +4,7 @@
   "has_tiers": false,
   "papers": [
     { "paper_number": "1", "name": "Paper 1: Core Content", "tier": null, "is_ums": false, "max_raw_mark": 60, "weight_percentage": 40, "max_ums_mark": null },
-    { "paper_number": "2", "name": "Paper 2: Depth Study", "tier": null, "is_ums": false, "max_raw_mark": 40, "weight_percentage": 40, "max_ums_mark": null },
-    { "paper_number": "4", "name": "Paper 4: Alternative to Coursework", "tier": null, "is_ums": false, "max_raw_mark": 50, "weight_percentage": 20, "max_ums_mark": null }
+    { "paper_number": "2", "name": "Paper 2: Depth Study", "tier": null, "is_ums": false, "max_raw_mark": 50, "weight_percentage": 40, "max_ums_mark": null },
+    { "paper_number": "4", "name": "Paper 4: Alternative to Coursework", "tier": null, "is_ums": false, "max_raw_mark": 40, "weight_percentage": 20, "max_ums_mark": null }
   ]
 }
