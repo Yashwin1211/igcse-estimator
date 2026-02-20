@@ -48,12 +48,13 @@ const metrics = [
   },
 ]
 
-const boundaryData = [
-  { year: '2025', pct: 74 },
-  { year: '2024', pct: 77 },
-  { year: '2023', pct: 72 },
-  { year: '2022', pct: 69 },
-  { year: '2021', pct: 71 },
+const subjectData = [
+  { subject: 'Add. Mathematics', code: '0606', pct: 87 },
+  { subject: 'Mathematics', code: '0580', pct: 79 },
+  { subject: 'Chemistry', code: '0620', pct: 73 },
+  { subject: 'Physics', code: '0625', pct: 70 },
+  { subject: 'Economics', code: '0455', pct: 64 },
+  { subject: 'English Language', code: '0500', pct: 58 },
 ]
 
 export default function LandingPage() {
@@ -366,12 +367,12 @@ export default function LandingPage() {
                 className="text-xs uppercase tracking-widest mb-6"
                 style={{ color: '#555', fontFamily: 'var(--font-sans)' }}
               >
-                A* boundary · Mathematics 0580 Extended · MJ series (example)
+                A* boundary · Extended tier · MJ series · 5-yr average
               </div>
               <div className="space-y-4">
-                {boundaryData.map((row, i) => (
+                {subjectData.map((row, i) => (
                   <motion.div
-                    key={row.year}
+                    key={row.code}
                     initial={{ opacity: 0, x: -12 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -379,10 +380,10 @@ export default function LandingPage() {
                     className="flex items-center gap-4"
                   >
                     <span
-                      className="text-xs w-8 flex-shrink-0"
+                      className="text-xs w-28 flex-shrink-0 truncate"
                       style={{ color: '#555', fontFamily: 'var(--font-sans)' }}
                     >
-                      {row.year}
+                      {row.subject}
                     </span>
                     <div className="flex-1 relative" style={{ height: '2px', background: '#1E1E1E', borderRadius: 1 }}>
                       <motion.div
@@ -407,8 +408,8 @@ export default function LandingPage() {
                 className="mt-6 pt-5 flex justify-between text-xs"
                 style={{ borderTop: '1px solid #1E1E1E', fontFamily: 'var(--font-sans)', color: '#555' }}
               >
-                <span>5-year average: 72.6%</span>
-                <span>Range: 69–77%</span>
+                <span>Hardest A*: Add. Maths · 87%</span>
+                <span>Easiest A*: English · 58%</span>
               </div>
             </motion.div>
           </div>
