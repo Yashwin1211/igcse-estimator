@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui'
 import { createClient } from '@/lib/supabase/client'
+import { trackEvent } from '@/lib/analytics'
 
 const steps = [
   {
@@ -61,6 +62,8 @@ export default function LandingPage() {
   const router = useRouter()
 
   useEffect(() => {
+    trackEvent('page_view', { path: '/' })
+
     const supabase = createClient()
     supabase.auth.getUser().then(({ data: { user } }) => {
       if (user) router.replace('/dashboard')

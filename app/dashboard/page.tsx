@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui'
 import { createClient } from '@/lib/supabase/client'
 import { format } from 'date-fns'
+import { trackEvent } from '@/lib/analytics'
 import type { EstimateResult, Grade } from '@/types'
 
 interface SavedEstimate {
@@ -59,8 +60,12 @@ function EstimateCard({
     e.stopPropagation()
     setDeleting(true)
     const res = await fetch(`/api/estimates/${est.id}`, { method: 'DELETE' })
-    if (res.ok) onDelete(est.id)
-    else setDeleting(false)
+    if (res.ok) {
+      trackEvent('estimate_deleted')
+      onDelete(est.id)
+    } else {
+      setDeleting(false)
+    }
   }
 
   return (
@@ -221,6 +226,8 @@ export default function DashboardPage() {
   const [userName, setUserName] = useState('')
 
   useEffect(() => {
+    trackEvent('page_view', { path: '/dashboard' })
+
     async function load() {
       const supabase = createClient()
       const { data: { user } } = await supabase.auth.getUser()

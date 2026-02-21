@@ -10,6 +10,7 @@ import { MarkInput } from '@/components/estimate/MarkInput'
 import { ReviewStep } from '@/components/estimate/ReviewStep'
 import { Stepper } from '@/components/ui'
 import { createClient } from '@/lib/supabase/client'
+import { trackEvent } from '@/lib/analytics'
 
 const STEPS = [
   { label: 'Subjects' },
@@ -23,6 +24,8 @@ function EstimatorContent() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   useEffect(() => {
+    trackEvent('page_view', { path: '/estimate' })
+
     createClient().auth.getUser().then(({ data: { user } }) => {
       setIsLoggedIn(!!user)
     })

@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import { Button, Input } from '@/components/ui'
 import { createClient } from '@/lib/supabase/client'
 import { getSessionId, clearSessionId } from '@/lib/utils/session'
+import { trackEvent } from '@/lib/analytics'
 
 export default function SignupPage() {
   const [email, setEmail] = useState('')
@@ -45,6 +46,8 @@ export default function SignupPage() {
       setLoading(false)
       return
     }
+
+    trackEvent('user_signed_up')
 
     // Claim any guest estimates
     const sessionId = getSessionId()

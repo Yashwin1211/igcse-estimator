@@ -1,6 +1,18 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/server'
+import { createClient, createServiceClient } from '@/lib/supabase/server'
 import type { SaveEstimatePayload } from '@/types'
+
+async function logError(route: string, message: string) {
+  try {
+    const supabase = await createServiceClient()
+    await supabase.from('analytics_events').insert({
+      event_type: 'error',
+      event_data: { route, message },
+    })
+  } catch {
+    // analytics must never break the app
+  }
+}
 
 // GET — fetch saved estimates for current user or guest session
 export async function GET(req: Request) {
@@ -64,7 +76,9 @@ export async function POST(req: Request) {
     .single()
 
   if (estimateError || !estimate) {
-    return NextResponse.json({ error: estimateError?.message ?? 'Insert failed' }, { status: 500 })
+    const msg = estimateError?.message ?? 'Insert failed'
+    await logError('/api/estimates', msg)
+    return NextResponse.json({ error: msg }, { status: 500 })
   }
 
   // Insert entries
@@ -81,6 +95,7 @@ export async function POST(req: Request) {
     if (entriesError) {
       // Roll back the estimate header
       await supabase.from('saved_estimates').delete().eq('id', estimate.id)
+      await logError('/api/estimates', entriesError.message)
       return NextResponse.json({ error: entriesError.message }, { status: 500 })
     }
   }

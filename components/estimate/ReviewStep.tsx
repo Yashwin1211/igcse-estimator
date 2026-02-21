@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { useEstimate } from './EstimateContext'
 import { Button } from '@/components/ui'
+import { trackEvent } from '@/lib/analytics'
 
 const SESSIONS = [
   { value: 'FM', label: 'Feb / March', available: true },
@@ -36,6 +37,12 @@ export function ReviewStep() {
       }
 
       const result = await res.json()
+
+      trackEvent('estimate_calculated', {
+        season,
+        subject_count: payload.length,
+        subjects: payload.map((e) => e.subject_id),
+      })
 
       // Store result in sessionStorage to pass to results page
       sessionStorage.setItem('estimate_result', JSON.stringify({ result, entries: payload, season }))

@@ -1,6 +1,19 @@
 import { NextResponse } from 'next/server'
 import { calculateEstimate } from '@/lib/calculation/calculate'
+import { createServiceClient } from '@/lib/supabase/server'
 import type { CalculatePayload } from '@/types'
+
+async function logError(route: string, message: string) {
+  try {
+    const supabase = await createServiceClient()
+    await supabase.from('analytics_events').insert({
+      event_type: 'error',
+      event_data: { route, message },
+    })
+  } catch {
+    // analytics must never break the app
+  }
+}
 
 export async function POST(req: Request) {
   let body: CalculatePayload
@@ -23,7 +36,9 @@ export async function POST(req: Request) {
     const result = await calculateEstimate(body.entries, body.season ?? 'MJ')
     return NextResponse.json(result)
   } catch (err) {
+    const message = err instanceof Error ? err.message : 'Calculation failed'
     console.error('[calculate]', err)
+    await logError('/api/estimate/calculate', message)
     return NextResponse.json({ error: 'Calculation failed' }, { status: 500 })
   }
 }

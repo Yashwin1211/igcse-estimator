@@ -8,6 +8,7 @@ import { GradeCard } from '@/components/results/GradeCard'
 import { Button } from '@/components/ui'
 import { getOrCreateSessionId } from '@/lib/utils/session'
 import { createClient } from '@/lib/supabase/client'
+import { trackEvent } from '@/lib/analytics'
 import type { EstimateResult, SubjectEstimateInput } from '@/types'
 
 interface StoredEstimate {
@@ -37,6 +38,8 @@ export default function ResultsPage() {
   const router = useRouter()
 
   useEffect(() => {
+    trackEvent('page_view', { path: '/results' })
+
     const raw = sessionStorage.getItem('estimate_result')
     if (!raw) { router.push('/estimate'); return }
     try { setData(JSON.parse(raw)) } catch { router.push('/estimate') }
@@ -68,6 +71,7 @@ export default function ResultsPage() {
         throw new Error(err.error ?? 'Save failed')
       }
 
+      trackEvent('estimate_saved')
       setSaved(true)
     } catch (err) {
       setSaveError((err as Error).message)
