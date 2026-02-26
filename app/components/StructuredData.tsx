@@ -4,11 +4,11 @@ export function StructuredData() {
     "@graph": [
       {
         "@type": "WebApplication",
-        "@id": "https://threshold.app#webapp",
+        "@id": "https://igcse-estimator.vercel.app#webapp",
         "name": "IGCSE Grade Calculator - Threshold",
         "alternateName": "Threshold IGCSE Grade Estimator",
         "description": "Free IGCSE grade calculator using 5 years of Cambridge boundary data. Calculate your grades across 18 subjects for February/March, May/June, and October/November exam sessions.",
-        "url": "https://threshold.app",
+        "url": "https://igcse-estimator.vercel.app",
         "applicationCategory": "EducationalApplication",
         "applicationSubCategory": "Grade Calculator",
         "operatingSystem": "Web Browser",
@@ -33,18 +33,18 @@ export function StructuredData() {
         "keywords": "IGCSE grade calculator, IGCSE grade estimator, IGCSE grade boundaries calculator, Cambridge IGCSE grades, grade boundary calculator",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://threshold.app"
+          "@id": "https://igcse-estimator.vercel.app"
         }
       },
       {
         "@type": "Organization",
-        "@id": "https://threshold.app#organization",
+        "@id": "https://igcse-estimator.vercel.app#organization",
         "name": "Threshold",
         "description": "Educational technology focused on Cambridge IGCSE grade estimation and boundary analysis.",
-        "url": "https://threshold.app",
+        "url": "https://igcse-estimator.vercel.app",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://threshold.app/og-image.jpg"
+          "url": "https://igcse-estimator.vercel.app/og-image.jpg"
         },
         "sameAs": [],
         "contactPoint": {
@@ -55,7 +55,7 @@ export function StructuredData() {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://threshold.app#faq",
+        "@id": "https://igcse-estimator.vercel.app#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -93,19 +93,19 @@ export function StructuredData() {
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://threshold.app#breadcrumbs",
+        "@id": "https://igcse-estimator.vercel.app#breadcrumbs",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://threshold.app"
+            "item": "https://igcse-estimator.vercel.app"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "IGCSE Grade Calculator",
-            "item": "https://threshold.app/estimate"
+            "item": "https://igcse-estimator.vercel.app/estimate"
           }
         ]
       }

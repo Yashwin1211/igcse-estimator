@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'IGCSE Grade Calculator | Threshold',
     description: 'Calculate your Cambridge IGCSE grades using 5 years of historical boundary data across 18 subjects.',
-    url: 'https://threshold.app',
+    url: 'https://igcse-estimator.vercel.app',
     siteName: 'Threshold',
     type: 'website',
     images: [{

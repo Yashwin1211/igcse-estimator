@@ -19,6 +19,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/api/', '/auth/', '/dashboard/']
       }
     ],
-    sitemap: 'https://threshold.app/sitemap.xml'
+    sitemap: 'https://igcse-estimator.vercel.app/sitemap.xml'
   }
 }
