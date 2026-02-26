@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 
+// Updated base URL for IGCSE Estimator
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://igcse-estimator.vercel.app'
   const currentDate = new Date()
