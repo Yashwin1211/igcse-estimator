@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://threshold.app'
+  const baseUrl = 'https://igcse-estimator.vercel.app'
   const currentDate = new Date()
 
   return [
