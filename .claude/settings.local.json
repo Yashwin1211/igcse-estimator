@@ -15,7 +15,24 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(vercel ls:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "WebFetch(domain:smartexamresources.com)",
+      "WebFetch(domain:edupapers.store)",
+      "WebFetch(domain:bestexamhelp.com)",
+      "Bash(curl:*)",
+      "Bash(pnpm pipeline:scrape:*)",
+      "Bash(pnpm pipeline:parse:*)",
+      "Bash(supabase status:*)",
+      "Bash(supabase db push:*)",
+      "Bash(npx tsc:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(npx vercel:*)",
+      "Bash(kill 68717:*)",
+      "Bash(git:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(sort:*)",
+      "Bash(find:*)"
     ]
   }
 }

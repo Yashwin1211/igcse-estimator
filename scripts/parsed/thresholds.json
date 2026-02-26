@@ -3069,23 +3069,5009 @@
   },
   {
     "syllabus_code": "0417",
-    "season": "FM",
-    "year": 2021,
+    "season": "MJ",
+    "year": 2022,
     "tier": null,
     "option_code": "AY",
     "max_mark": 300,
     "grades": [
       {
         "grade": "A*",
-        "min_mark": 211
+        "min_mark": 206
       },
       {
         "grade": "A",
-        "min_mark": 174
+        "min_mark": 172
+      },
+      {
+        "grade": "B",
+        "min_mark": 138
+      },
+      {
+        "grade": "C",
+        "min_mark": 105
+      },
+      {
+        "grade": "D",
+        "min_mark": 86
+      },
+      {
+        "grade": "E",
+        "min_mark": 68
+      },
+      {
+        "grade": "F",
+        "min_mark": 49
+      },
+      {
+        "grade": "G",
+        "min_mark": 31
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 89
+      },
+      {
+        "grade": "A",
+        "min_mark": 73
+      },
+      {
+        "grade": "B",
+        "min_mark": 57
+      },
+      {
+        "grade": "C",
+        "min_mark": 42
+      },
+      {
+        "grade": "D",
+        "min_mark": 35
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 23
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 90
+      },
+      {
+        "grade": "A",
+        "min_mark": 72
+      },
+      {
+        "grade": "B",
+        "min_mark": 54
+      },
+      {
+        "grade": "C",
+        "min_mark": 36
+      },
+      {
+        "grade": "D",
+        "min_mark": 31
+      },
+      {
+        "grade": "E",
+        "min_mark": 26
+      },
+      {
+        "grade": "F",
+        "min_mark": 21
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 114
+      },
+      {
+        "grade": "A",
+        "min_mark": 95
+      },
+      {
+        "grade": "B",
+        "min_mark": 76
+      },
+      {
+        "grade": "C",
+        "min_mark": 58
+      },
+      {
+        "grade": "D",
+        "min_mark": 47
+      },
+      {
+        "grade": "E",
+        "min_mark": 36
+      },
+      {
+        "grade": "F",
+        "min_mark": 27
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 173
+      },
+      {
+        "grade": "A",
+        "min_mark": 150
+      },
+      {
+        "grade": "B",
+        "min_mark": 127
+      },
+      {
+        "grade": "C",
+        "min_mark": 104
+      },
+      {
+        "grade": "D",
+        "min_mark": 87
+      },
+      {
+        "grade": "E",
+        "min_mark": 70
+      },
+      {
+        "grade": "F",
+        "min_mark": 55
+      },
+      {
+        "grade": "G",
+        "min_mark": 40
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 103
+      },
+      {
+        "grade": "A",
+        "min_mark": 90
+      },
+      {
+        "grade": "B",
+        "min_mark": 77
+      },
+      {
+        "grade": "C",
+        "min_mark": 65
+      },
+      {
+        "grade": "D",
+        "min_mark": 54
+      },
+      {
+        "grade": "E",
+        "min_mark": 43
+      },
+      {
+        "grade": "F",
+        "min_mark": 34
+      },
+      {
+        "grade": "G",
+        "min_mark": 25
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 60
+      },
+      {
+        "grade": "A",
+        "min_mark": 52
+      },
+      {
+        "grade": "B",
+        "min_mark": 44
+      },
+      {
+        "grade": "C",
+        "min_mark": 36
+      },
+      {
+        "grade": "D",
+        "min_mark": 31
+      },
+      {
+        "grade": "E",
+        "min_mark": 26
+      },
+      {
+        "grade": "F",
+        "min_mark": 21
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 125,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 85
+      },
+      {
+        "grade": "A",
+        "min_mark": 68
+      },
+      {
+        "grade": "B",
+        "min_mark": 51
+      },
+      {
+        "grade": "C",
+        "min_mark": 35
+      },
+      {
+        "grade": "D",
+        "min_mark": 29
+      },
+      {
+        "grade": "E",
+        "min_mark": 24
+      },
+      {
+        "grade": "F",
+        "min_mark": 19
+      },
+      {
+        "grade": "G",
+        "min_mark": 14
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 110
+      },
+      {
+        "grade": "A",
+        "min_mark": 92
+      },
+      {
+        "grade": "B",
+        "min_mark": 74
+      },
+      {
+        "grade": "C",
+        "min_mark": 57
+      },
+      {
+        "grade": "D",
+        "min_mark": 46
+      },
+      {
+        "grade": "E",
+        "min_mark": 35
+      },
+      {
+        "grade": "F",
+        "min_mark": 25
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 111
+      },
+      {
+        "grade": "A",
+        "min_mark": 99
+      },
+      {
+        "grade": "B",
+        "min_mark": 87
+      },
+      {
+        "grade": "C",
+        "min_mark": 75
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 52
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 30
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 157
+      },
+      {
+        "grade": "A",
+        "min_mark": 137
+      },
+      {
+        "grade": "B",
+        "min_mark": 117
+      },
+      {
+        "grade": "C",
+        "min_mark": 98
+      },
+      {
+        "grade": "D",
+        "min_mark": 82
+      },
+      {
+        "grade": "E",
+        "min_mark": 66
+      },
+      {
+        "grade": "F",
+        "min_mark": 50
+      },
+      {
+        "grade": "G",
+        "min_mark": 34
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2022,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 79
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 48
+      },
+      {
+        "grade": "F",
+        "min_mark": 33
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 159
+      },
+      {
+        "grade": "A",
+        "min_mark": 127
+      },
+      {
+        "grade": "B",
+        "min_mark": 95
+      },
+      {
+        "grade": "C",
+        "min_mark": 63
+      },
+      {
+        "grade": "D",
+        "min_mark": 46
+      },
+      {
+        "grade": "E",
+        "min_mark": 30
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "MJ",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 118
+      },
+      {
+        "grade": "A",
+        "min_mark": 90
+      },
+      {
+        "grade": "B",
+        "min_mark": 62
+      },
+      {
+        "grade": "C",
+        "min_mark": 34
+      },
+      {
+        "grade": "D",
+        "min_mark": 25
+      },
+      {
+        "grade": "E",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "MJ",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 157
+      },
+      {
+        "grade": "A",
+        "min_mark": 132
+      },
+      {
+        "grade": "B",
+        "min_mark": 107
+      },
+      {
+        "grade": "C",
+        "min_mark": 83
+      },
+      {
+        "grade": "D",
+        "min_mark": 68
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 40
+      },
+      {
+        "grade": "G",
+        "min_mark": 26
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "MJ",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 141
+      },
+      {
+        "grade": "A",
+        "min_mark": 115
+      },
+      {
+        "grade": "B",
+        "min_mark": 89
+      },
+      {
+        "grade": "C",
+        "min_mark": 64
+      },
+      {
+        "grade": "D",
+        "min_mark": 55
+      },
+      {
+        "grade": "E",
+        "min_mark": 46
+      },
+      {
+        "grade": "F",
+        "min_mark": 37
+      },
+      {
+        "grade": "G",
+        "min_mark": 28
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "MJ",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 137
+      },
+      {
+        "grade": "A",
+        "min_mark": 113
+      },
+      {
+        "grade": "B",
+        "min_mark": 89
+      },
+      {
+        "grade": "C",
+        "min_mark": 66
+      },
+      {
+        "grade": "D",
+        "min_mark": 56
+      },
+      {
+        "grade": "E",
+        "min_mark": 47
+      },
+      {
+        "grade": "F",
+        "min_mark": 38
+      },
+      {
+        "grade": "G",
+        "min_mark": 29
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "MJ",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 134
+      },
+      {
+        "grade": "A",
+        "min_mark": 114
+      },
+      {
+        "grade": "B",
+        "min_mark": 94
+      },
+      {
+        "grade": "C",
+        "min_mark": 74
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 53
+      },
+      {
+        "grade": "F",
+        "min_mark": 43
+      },
+      {
+        "grade": "G",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 280,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 197
+      },
+      {
+        "grade": "A",
+        "min_mark": 167
       },
       {
         "grade": "B",
         "min_mark": 137
+      },
+      {
+        "grade": "C",
+        "min_mark": 108
+      },
+      {
+        "grade": "D",
+        "min_mark": 89
+      },
+      {
+        "grade": "E",
+        "min_mark": 70
+      },
+      {
+        "grade": "F",
+        "min_mark": 52
+      },
+      {
+        "grade": "G",
+        "min_mark": 34
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 98
+      },
+      {
+        "grade": "A",
+        "min_mark": 82
+      },
+      {
+        "grade": "B",
+        "min_mark": 66
+      },
+      {
+        "grade": "C",
+        "min_mark": 50
+      },
+      {
+        "grade": "D",
+        "min_mark": 41
+      },
+      {
+        "grade": "E",
+        "min_mark": 32
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 108
+      },
+      {
+        "grade": "A",
+        "min_mark": 85
+      },
+      {
+        "grade": "B",
+        "min_mark": 62
+      },
+      {
+        "grade": "C",
+        "min_mark": 40
+      },
+      {
+        "grade": "D",
+        "min_mark": 34
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 19
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 125
+      },
+      {
+        "grade": "A",
+        "min_mark": 106
+      },
+      {
+        "grade": "B",
+        "min_mark": 87
+      },
+      {
+        "grade": "C",
+        "min_mark": 68
+      },
+      {
+        "grade": "D",
+        "min_mark": 57
+      },
+      {
+        "grade": "E",
+        "min_mark": 47
+      },
+      {
+        "grade": "F",
+        "min_mark": 37
+      },
+      {
+        "grade": "G",
+        "min_mark": 27
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 180
+      },
+      {
+        "grade": "A",
+        "min_mark": 156
+      },
+      {
+        "grade": "B",
+        "min_mark": 132
+      },
+      {
+        "grade": "C",
+        "min_mark": 109
+      },
+      {
+        "grade": "D",
+        "min_mark": 91
+      },
+      {
+        "grade": "E",
+        "min_mark": 74
+      },
+      {
+        "grade": "F",
+        "min_mark": 59
+      },
+      {
+        "grade": "G",
+        "min_mark": 44
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 104
+      },
+      {
+        "grade": "A",
+        "min_mark": 92
+      },
+      {
+        "grade": "B",
+        "min_mark": 80
+      },
+      {
+        "grade": "C",
+        "min_mark": 68
+      },
+      {
+        "grade": "D",
+        "min_mark": 58
+      },
+      {
+        "grade": "E",
+        "min_mark": 49
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 65
+      },
+      {
+        "grade": "A",
+        "min_mark": 56
+      },
+      {
+        "grade": "B",
+        "min_mark": 47
+      },
+      {
+        "grade": "C",
+        "min_mark": 39
+      },
+      {
+        "grade": "D",
+        "min_mark": 33
+      },
+      {
+        "grade": "E",
+        "min_mark": 28
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 109
+      },
+      {
+        "grade": "A",
+        "min_mark": 86
+      },
+      {
+        "grade": "B",
+        "min_mark": 63
+      },
+      {
+        "grade": "C",
+        "min_mark": 40
+      },
+      {
+        "grade": "D",
+        "min_mark": 33
+      },
+      {
+        "grade": "E",
+        "min_mark": 27
+      },
+      {
+        "grade": "F",
+        "min_mark": 21
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 124
+      },
+      {
+        "grade": "A",
+        "min_mark": 103
+      },
+      {
+        "grade": "B",
+        "min_mark": 82
+      },
+      {
+        "grade": "C",
+        "min_mark": 61
+      },
+      {
+        "grade": "D",
+        "min_mark": 49
+      },
+      {
+        "grade": "E",
+        "min_mark": 38
+      },
+      {
+        "grade": "F",
+        "min_mark": 27
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 115
+      },
+      {
+        "grade": "A",
+        "min_mark": 102
+      },
+      {
+        "grade": "B",
+        "min_mark": 89
+      },
+      {
+        "grade": "C",
+        "min_mark": 76
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 53
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 29
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 159
+      },
+      {
+        "grade": "A",
+        "min_mark": 139
+      },
+      {
+        "grade": "B",
+        "min_mark": 119
+      },
+      {
+        "grade": "C",
+        "min_mark": 99
+      },
+      {
+        "grade": "D",
+        "min_mark": 84
+      },
+      {
+        "grade": "E",
+        "min_mark": 69
+      },
+      {
+        "grade": "F",
+        "min_mark": 53
+      },
+      {
+        "grade": "G",
+        "min_mark": 37
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2023,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 94
+      },
+      {
+        "grade": "D",
+        "min_mark": 76
+      },
+      {
+        "grade": "E",
+        "min_mark": 59
+      },
+      {
+        "grade": "F",
+        "min_mark": 43
+      },
+      {
+        "grade": "G",
+        "min_mark": 27
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 174
+      },
+      {
+        "grade": "A",
+        "min_mark": 148
+      },
+      {
+        "grade": "B",
+        "min_mark": 113
+      },
+      {
+        "grade": "C",
+        "min_mark": 78
+      },
+      {
+        "grade": "D",
+        "min_mark": 61
+      },
+      {
+        "grade": "E",
+        "min_mark": 44
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "MJ",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 131
+      },
+      {
+        "grade": "A",
+        "min_mark": 103
+      },
+      {
+        "grade": "B",
+        "min_mark": 72
+      },
+      {
+        "grade": "C",
+        "min_mark": 41
+      },
+      {
+        "grade": "D",
+        "min_mark": 30
+      },
+      {
+        "grade": "E",
+        "min_mark": 19
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "MJ",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 164
+      },
+      {
+        "grade": "A",
+        "min_mark": 140
+      },
+      {
+        "grade": "B",
+        "min_mark": 116
+      },
+      {
+        "grade": "C",
+        "min_mark": 93
+      },
+      {
+        "grade": "D",
+        "min_mark": 79
+      },
+      {
+        "grade": "E",
+        "min_mark": 65
+      },
+      {
+        "grade": "F",
+        "min_mark": 51
+      },
+      {
+        "grade": "G",
+        "min_mark": 37
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "MJ",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 154
+      },
+      {
+        "grade": "A",
+        "min_mark": 125
+      },
+      {
+        "grade": "B",
+        "min_mark": 96
+      },
+      {
+        "grade": "C",
+        "min_mark": 67
+      },
+      {
+        "grade": "D",
+        "min_mark": 58
+      },
+      {
+        "grade": "E",
+        "min_mark": 49
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "MJ",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 148
+      },
+      {
+        "grade": "A",
+        "min_mark": 122
+      },
+      {
+        "grade": "B",
+        "min_mark": 96
+      },
+      {
+        "grade": "C",
+        "min_mark": 71
+      },
+      {
+        "grade": "D",
+        "min_mark": 60
+      },
+      {
+        "grade": "E",
+        "min_mark": 50
+      },
+      {
+        "grade": "F",
+        "min_mark": 40
+      },
+      {
+        "grade": "G",
+        "min_mark": 30
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "MJ",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 147
+      },
+      {
+        "grade": "A",
+        "min_mark": 123
+      },
+      {
+        "grade": "B",
+        "min_mark": 99
+      },
+      {
+        "grade": "C",
+        "min_mark": 75
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 45
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 280,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 201
+      },
+      {
+        "grade": "A",
+        "min_mark": 171
+      },
+      {
+        "grade": "B",
+        "min_mark": 141
+      },
+      {
+        "grade": "C",
+        "min_mark": 111
+      },
+      {
+        "grade": "D",
+        "min_mark": 93
+      },
+      {
+        "grade": "E",
+        "min_mark": 76
+      },
+      {
+        "grade": "F",
+        "min_mark": 58
+      },
+      {
+        "grade": "G",
+        "min_mark": 40
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 105
+      },
+      {
+        "grade": "A",
+        "min_mark": 87
+      },
+      {
+        "grade": "B",
+        "min_mark": 69
+      },
+      {
+        "grade": "C",
+        "min_mark": 52
+      },
+      {
+        "grade": "D",
+        "min_mark": 43
+      },
+      {
+        "grade": "E",
+        "min_mark": 34
+      },
+      {
+        "grade": "F",
+        "min_mark": 26
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 109
+      },
+      {
+        "grade": "A",
+        "min_mark": 86
+      },
+      {
+        "grade": "B",
+        "min_mark": 63
+      },
+      {
+        "grade": "C",
+        "min_mark": 40
+      },
+      {
+        "grade": "D",
+        "min_mark": 34
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 23
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 122
+      },
+      {
+        "grade": "A",
+        "min_mark": 103
+      },
+      {
+        "grade": "B",
+        "min_mark": 84
+      },
+      {
+        "grade": "C",
+        "min_mark": 66
+      },
+      {
+        "grade": "D",
+        "min_mark": 56
+      },
+      {
+        "grade": "E",
+        "min_mark": 46
+      },
+      {
+        "grade": "F",
+        "min_mark": 36
+      },
+      {
+        "grade": "G",
+        "min_mark": 26
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 187
+      },
+      {
+        "grade": "A",
+        "min_mark": 163
+      },
+      {
+        "grade": "B",
+        "min_mark": 139
+      },
+      {
+        "grade": "C",
+        "min_mark": 116
+      },
+      {
+        "grade": "D",
+        "min_mark": 97
+      },
+      {
+        "grade": "E",
+        "min_mark": 79
+      },
+      {
+        "grade": "F",
+        "min_mark": 62
+      },
+      {
+        "grade": "G",
+        "min_mark": 45
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 104
+      },
+      {
+        "grade": "A",
+        "min_mark": 93
+      },
+      {
+        "grade": "B",
+        "min_mark": 82
+      },
+      {
+        "grade": "C",
+        "min_mark": 71
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 55
+      },
+      {
+        "grade": "F",
+        "min_mark": 47
+      },
+      {
+        "grade": "G",
+        "min_mark": 39
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 67
+      },
+      {
+        "grade": "A",
+        "min_mark": 57
+      },
+      {
+        "grade": "B",
+        "min_mark": 47
+      },
+      {
+        "grade": "C",
+        "min_mark": 38
+      },
+      {
+        "grade": "D",
+        "min_mark": 33
+      },
+      {
+        "grade": "E",
+        "min_mark": 28
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 120
+      },
+      {
+        "grade": "A",
+        "min_mark": 95
+      },
+      {
+        "grade": "B",
+        "min_mark": 70
+      },
+      {
+        "grade": "C",
+        "min_mark": 45
+      },
+      {
+        "grade": "D",
+        "min_mark": 37
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 125
+      },
+      {
+        "grade": "A",
+        "min_mark": 104
+      },
+      {
+        "grade": "B",
+        "min_mark": 83
+      },
+      {
+        "grade": "C",
+        "min_mark": 63
+      },
+      {
+        "grade": "D",
+        "min_mark": 51
+      },
+      {
+        "grade": "E",
+        "min_mark": 40
+      },
+      {
+        "grade": "F",
+        "min_mark": 29
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 115
+      },
+      {
+        "grade": "A",
+        "min_mark": 102
+      },
+      {
+        "grade": "B",
+        "min_mark": 89
+      },
+      {
+        "grade": "C",
+        "min_mark": 76
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 53
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 29
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 166
+      },
+      {
+        "grade": "A",
+        "min_mark": 144
+      },
+      {
+        "grade": "B",
+        "min_mark": 122
+      },
+      {
+        "grade": "C",
+        "min_mark": 101
+      },
+      {
+        "grade": "D",
+        "min_mark": 85
+      },
+      {
+        "grade": "E",
+        "min_mark": 69
+      },
+      {
+        "grade": "F",
+        "min_mark": 53
+      },
+      {
+        "grade": "G",
+        "min_mark": 37
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2024,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 89
+      },
+      {
+        "grade": "D",
+        "min_mark": 72
+      },
+      {
+        "grade": "E",
+        "min_mark": 55
+      },
+      {
+        "grade": "F",
+        "min_mark": 38
+      },
+      {
+        "grade": "G",
+        "min_mark": 21
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 175
+      },
+      {
+        "grade": "A",
+        "min_mark": 150
+      },
+      {
+        "grade": "B",
+        "min_mark": 117
+      },
+      {
+        "grade": "C",
+        "min_mark": 85
+      },
+      {
+        "grade": "D",
+        "min_mark": 66
+      },
+      {
+        "grade": "E",
+        "min_mark": 48
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "MJ",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 135
+      },
+      {
+        "grade": "A",
+        "min_mark": 110
+      },
+      {
+        "grade": "B",
+        "min_mark": 83
+      },
+      {
+        "grade": "C",
+        "min_mark": 56
+      },
+      {
+        "grade": "D",
+        "min_mark": 44
+      },
+      {
+        "grade": "E",
+        "min_mark": 32
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "MJ",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 173
+      },
+      {
+        "grade": "A",
+        "min_mark": 146
+      },
+      {
+        "grade": "B",
+        "min_mark": 119
+      },
+      {
+        "grade": "C",
+        "min_mark": 92
+      },
+      {
+        "grade": "D",
+        "min_mark": 78
+      },
+      {
+        "grade": "E",
+        "min_mark": 64
+      },
+      {
+        "grade": "F",
+        "min_mark": 51
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "MJ",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 166
+      },
+      {
+        "grade": "A",
+        "min_mark": 137
+      },
+      {
+        "grade": "B",
+        "min_mark": 108
+      },
+      {
+        "grade": "C",
+        "min_mark": 79
+      },
+      {
+        "grade": "D",
+        "min_mark": 67
+      },
+      {
+        "grade": "E",
+        "min_mark": 56
+      },
+      {
+        "grade": "F",
+        "min_mark": 45
+      },
+      {
+        "grade": "G",
+        "min_mark": 34
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "MJ",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 145
+      },
+      {
+        "grade": "A",
+        "min_mark": 120
+      },
+      {
+        "grade": "B",
+        "min_mark": 95
+      },
+      {
+        "grade": "C",
+        "min_mark": 71
+      },
+      {
+        "grade": "D",
+        "min_mark": 61
+      },
+      {
+        "grade": "E",
+        "min_mark": 52
+      },
+      {
+        "grade": "F",
+        "min_mark": 42
+      },
+      {
+        "grade": "G",
+        "min_mark": 32
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "MJ",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 148
+      },
+      {
+        "grade": "A",
+        "min_mark": 124
+      },
+      {
+        "grade": "B",
+        "min_mark": 100
+      },
+      {
+        "grade": "C",
+        "min_mark": 77
+      },
+      {
+        "grade": "D",
+        "min_mark": 66
+      },
+      {
+        "grade": "E",
+        "min_mark": 56
+      },
+      {
+        "grade": "F",
+        "min_mark": 47
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 280,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 198
+      },
+      {
+        "grade": "A",
+        "min_mark": 168
+      },
+      {
+        "grade": "B",
+        "min_mark": 138
+      },
+      {
+        "grade": "C",
+        "min_mark": 109
+      },
+      {
+        "grade": "D",
+        "min_mark": 91
+      },
+      {
+        "grade": "E",
+        "min_mark": 73
+      },
+      {
+        "grade": "F",
+        "min_mark": 56
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 106
+      },
+      {
+        "grade": "A",
+        "min_mark": 89
+      },
+      {
+        "grade": "B",
+        "min_mark": 72
+      },
+      {
+        "grade": "C",
+        "min_mark": 56
+      },
+      {
+        "grade": "D",
+        "min_mark": 47
+      },
+      {
+        "grade": "E",
+        "min_mark": 38
+      },
+      {
+        "grade": "F",
+        "min_mark": 28
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 105
+      },
+      {
+        "grade": "A",
+        "min_mark": 83
+      },
+      {
+        "grade": "B",
+        "min_mark": 61
+      },
+      {
+        "grade": "C",
+        "min_mark": 40
+      },
+      {
+        "grade": "D",
+        "min_mark": 34
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 23
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 125
+      },
+      {
+        "grade": "A",
+        "min_mark": 106
+      },
+      {
+        "grade": "B",
+        "min_mark": 87
+      },
+      {
+        "grade": "C",
+        "min_mark": 68
+      },
+      {
+        "grade": "D",
+        "min_mark": 58
+      },
+      {
+        "grade": "E",
+        "min_mark": 48
+      },
+      {
+        "grade": "F",
+        "min_mark": 38
+      },
+      {
+        "grade": "G",
+        "min_mark": 28
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 187
+      },
+      {
+        "grade": "A",
+        "min_mark": 164
+      },
+      {
+        "grade": "B",
+        "min_mark": 141
+      },
+      {
+        "grade": "C",
+        "min_mark": 118
+      },
+      {
+        "grade": "D",
+        "min_mark": 99
+      },
+      {
+        "grade": "E",
+        "min_mark": 81
+      },
+      {
+        "grade": "F",
+        "min_mark": 64
+      },
+      {
+        "grade": "G",
+        "min_mark": 47
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 106
+      },
+      {
+        "grade": "A",
+        "min_mark": 94
+      },
+      {
+        "grade": "B",
+        "min_mark": 82
+      },
+      {
+        "grade": "C",
+        "min_mark": 70
+      },
+      {
+        "grade": "D",
+        "min_mark": 62
+      },
+      {
+        "grade": "E",
+        "min_mark": 55
+      },
+      {
+        "grade": "F",
+        "min_mark": 48
+      },
+      {
+        "grade": "G",
+        "min_mark": 41
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 69
+      },
+      {
+        "grade": "A",
+        "min_mark": 59
+      },
+      {
+        "grade": "B",
+        "min_mark": 49
+      },
+      {
+        "grade": "C",
+        "min_mark": 39
+      },
+      {
+        "grade": "D",
+        "min_mark": 33
+      },
+      {
+        "grade": "E",
+        "min_mark": 28
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 123
+      },
+      {
+        "grade": "A",
+        "min_mark": 100
+      },
+      {
+        "grade": "B",
+        "min_mark": 77
+      },
+      {
+        "grade": "C",
+        "min_mark": 54
+      },
+      {
+        "grade": "D",
+        "min_mark": 47
+      },
+      {
+        "grade": "E",
+        "min_mark": 41
+      },
+      {
+        "grade": "F",
+        "min_mark": 35
+      },
+      {
+        "grade": "G",
+        "min_mark": 29
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 130
+      },
+      {
+        "grade": "A",
+        "min_mark": 109
+      },
+      {
+        "grade": "B",
+        "min_mark": 88
+      },
+      {
+        "grade": "C",
+        "min_mark": 67
+      },
+      {
+        "grade": "D",
+        "min_mark": 55
+      },
+      {
+        "grade": "E",
+        "min_mark": 44
+      },
+      {
+        "grade": "F",
+        "min_mark": 32
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 116
+      },
+      {
+        "grade": "A",
+        "min_mark": 103
+      },
+      {
+        "grade": "B",
+        "min_mark": 90
+      },
+      {
+        "grade": "C",
+        "min_mark": 78
+      },
+      {
+        "grade": "D",
+        "min_mark": 66
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 28
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 167
+      },
+      {
+        "grade": "A",
+        "min_mark": 144
+      },
+      {
+        "grade": "B",
+        "min_mark": 121
+      },
+      {
+        "grade": "C",
+        "min_mark": 99
+      },
+      {
+        "grade": "D",
+        "min_mark": 84
+      },
+      {
+        "grade": "E",
+        "min_mark": 69
+      },
+      {
+        "grade": "F",
+        "min_mark": 53
+      },
+      {
+        "grade": "G",
+        "min_mark": 37
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2025,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 86
+      },
+      {
+        "grade": "D",
+        "min_mark": 68
+      },
+      {
+        "grade": "E",
+        "min_mark": 51
+      },
+      {
+        "grade": "F",
+        "min_mark": 34
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "MJ",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 176
+      },
+      {
+        "grade": "A",
+        "min_mark": 152
+      },
+      {
+        "grade": "B",
+        "min_mark": 119
+      },
+      {
+        "grade": "C",
+        "min_mark": 86
+      },
+      {
+        "grade": "D",
+        "min_mark": 68
+      },
+      {
+        "grade": "E",
+        "min_mark": 51
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "MJ",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 137
+      },
+      {
+        "grade": "A",
+        "min_mark": 115
+      },
+      {
+        "grade": "B",
+        "min_mark": 87
+      },
+      {
+        "grade": "C",
+        "min_mark": 59
+      },
+      {
+        "grade": "D",
+        "min_mark": 46
+      },
+      {
+        "grade": "E",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "MJ",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 173
+      },
+      {
+        "grade": "A",
+        "min_mark": 148
+      },
+      {
+        "grade": "B",
+        "min_mark": 123
+      },
+      {
+        "grade": "C",
+        "min_mark": 99
+      },
+      {
+        "grade": "D",
+        "min_mark": 85
+      },
+      {
+        "grade": "E",
+        "min_mark": 71
+      },
+      {
+        "grade": "F",
+        "min_mark": 58
+      },
+      {
+        "grade": "G",
+        "min_mark": 45
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "MJ",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 172
+      },
+      {
+        "grade": "A",
+        "min_mark": 145
+      },
+      {
+        "grade": "B",
+        "min_mark": 116
+      },
+      {
+        "grade": "C",
+        "min_mark": 88
+      },
+      {
+        "grade": "D",
+        "min_mark": 77
+      },
+      {
+        "grade": "E",
+        "min_mark": 66
+      },
+      {
+        "grade": "F",
+        "min_mark": 54
+      },
+      {
+        "grade": "G",
+        "min_mark": 42
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "MJ",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 154
+      },
+      {
+        "grade": "A",
+        "min_mark": 128
+      },
+      {
+        "grade": "B",
+        "min_mark": 102
+      },
+      {
+        "grade": "C",
+        "min_mark": 77
+      },
+      {
+        "grade": "D",
+        "min_mark": 66
+      },
+      {
+        "grade": "E",
+        "min_mark": 56
+      },
+      {
+        "grade": "F",
+        "min_mark": 47
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "MJ",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 146
+      },
+      {
+        "grade": "A",
+        "min_mark": 122
+      },
+      {
+        "grade": "B",
+        "min_mark": 98
+      },
+      {
+        "grade": "C",
+        "min_mark": 75
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 44
+      },
+      {
+        "grade": "G",
+        "min_mark": 34
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "EY",
+    "max_mark": 300,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 214
+      },
+      {
+        "grade": "A",
+        "min_mark": 180
+      },
+      {
+        "grade": "B",
+        "min_mark": 146
+      },
+      {
+        "grade": "C",
+        "min_mark": 112
+      },
+      {
+        "grade": "D",
+        "min_mark": 91
+      },
+      {
+        "grade": "E",
+        "min_mark": 70
+      },
+      {
+        "grade": "F",
+        "min_mark": 50
+      },
+      {
+        "grade": "G",
+        "min_mark": 30
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 85
+      },
+      {
+        "grade": "A",
+        "min_mark": 70
+      },
+      {
+        "grade": "B",
+        "min_mark": 55
+      },
+      {
+        "grade": "C",
+        "min_mark": 40
+      },
+      {
+        "grade": "D",
+        "min_mark": 34
+      },
+      {
+        "grade": "E",
+        "min_mark": 28
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 86
+      },
+      {
+        "grade": "A",
+        "min_mark": 70
+      },
+      {
+        "grade": "B",
+        "min_mark": 54
+      },
+      {
+        "grade": "C",
+        "min_mark": 38
+      },
+      {
+        "grade": "D",
+        "min_mark": 32
+      },
+      {
+        "grade": "E",
+        "min_mark": 27
+      },
+      {
+        "grade": "F",
+        "min_mark": 21
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 117
+      },
+      {
+        "grade": "A",
+        "min_mark": 99
+      },
+      {
+        "grade": "B",
+        "min_mark": 81
+      },
+      {
+        "grade": "C",
+        "min_mark": 64
+      },
+      {
+        "grade": "D",
+        "min_mark": 53
+      },
+      {
+        "grade": "E",
+        "min_mark": 42
+      },
+      {
+        "grade": "F",
+        "min_mark": 31
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 169
+      },
+      {
+        "grade": "A",
+        "min_mark": 148
+      },
+      {
+        "grade": "B",
+        "min_mark": 127
+      },
+      {
+        "grade": "C",
+        "min_mark": 107
+      },
+      {
+        "grade": "D",
+        "min_mark": 90
+      },
+      {
+        "grade": "E",
+        "min_mark": 73
+      },
+      {
+        "grade": "F",
+        "min_mark": 57
+      },
+      {
+        "grade": "G",
+        "min_mark": 41
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 105
+      },
+      {
+        "grade": "A",
+        "min_mark": 90
+      },
+      {
+        "grade": "B",
+        "min_mark": 75
+      },
+      {
+        "grade": "C",
+        "min_mark": 61
+      },
+      {
+        "grade": "D",
+        "min_mark": 49
+      },
+      {
+        "grade": "E",
+        "min_mark": 38
+      },
+      {
+        "grade": "F",
+        "min_mark": 29
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 64
+      },
+      {
+        "grade": "A",
+        "min_mark": 55
+      },
+      {
+        "grade": "B",
+        "min_mark": 46
+      },
+      {
+        "grade": "C",
+        "min_mark": 38
+      },
+      {
+        "grade": "D",
+        "min_mark": 32
+      },
+      {
+        "grade": "E",
+        "min_mark": 27
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 125,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 87
+      },
+      {
+        "grade": "A",
+        "min_mark": 71
+      },
+      {
+        "grade": "B",
+        "min_mark": 55
+      },
+      {
+        "grade": "C",
+        "min_mark": 39
+      },
+      {
+        "grade": "D",
+        "min_mark": 32
+      },
+      {
+        "grade": "E",
+        "min_mark": 25
+      },
+      {
+        "grade": "F",
+        "min_mark": 19
+      },
+      {
+        "grade": "G",
+        "min_mark": 13
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 116
+      },
+      {
+        "grade": "A",
+        "min_mark": 99
+      },
+      {
+        "grade": "B",
+        "min_mark": 82
+      },
+      {
+        "grade": "C",
+        "min_mark": 65
+      },
+      {
+        "grade": "D",
+        "min_mark": 52
+      },
+      {
+        "grade": "E",
+        "min_mark": 40
+      },
+      {
+        "grade": "F",
+        "min_mark": 28
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 109
+      },
+      {
+        "grade": "A",
+        "min_mark": 97
+      },
+      {
+        "grade": "B",
+        "min_mark": 85
+      },
+      {
+        "grade": "C",
+        "min_mark": 73
+      },
+      {
+        "grade": "D",
+        "min_mark": 61
+      },
+      {
+        "grade": "E",
+        "min_mark": 49
+      },
+      {
+        "grade": "F",
+        "min_mark": 37
+      },
+      {
+        "grade": "G",
+        "min_mark": 25
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 162
+      },
+      {
+        "grade": "A",
+        "min_mark": 139
+      },
+      {
+        "grade": "B",
+        "min_mark": 116
+      },
+      {
+        "grade": "C",
+        "min_mark": 93
+      },
+      {
+        "grade": "D",
+        "min_mark": 78
+      },
+      {
+        "grade": "E",
+        "min_mark": 63
+      },
+      {
+        "grade": "F",
+        "min_mark": 48
+      },
+      {
+        "grade": "G",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0549",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "A",
+    "max_mark": 90,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 71
+      },
+      {
+        "grade": "A",
+        "min_mark": 61
+      },
+      {
+        "grade": "B",
+        "min_mark": 51
+      },
+      {
+        "grade": "C",
+        "min_mark": 41
+      },
+      {
+        "grade": "D",
+        "min_mark": 34
+      },
+      {
+        "grade": "E",
+        "min_mark": 27
+      },
+      {
+        "grade": "F",
+        "min_mark": 20
+      },
+      {
+        "grade": "G",
+        "min_mark": 13
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2022,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 105
+      },
+      {
+        "grade": "D",
+        "min_mark": 86
+      },
+      {
+        "grade": "E",
+        "min_mark": 68
+      },
+      {
+        "grade": "F",
+        "min_mark": 50
+      },
+      {
+        "grade": "G",
+        "min_mark": 32
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 170
+      },
+      {
+        "grade": "A",
+        "min_mark": 140
+      },
+      {
+        "grade": "B",
+        "min_mark": 110
+      },
+      {
+        "grade": "C",
+        "min_mark": 80
+      },
+      {
+        "grade": "D",
+        "min_mark": 67
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "ON",
+    "year": 2022,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 130
+      },
+      {
+        "grade": "A",
+        "min_mark": 101
+      },
+      {
+        "grade": "B",
+        "min_mark": 68
+      },
+      {
+        "grade": "C",
+        "min_mark": 36
+      },
+      {
+        "grade": "D",
+        "min_mark": 26
+      },
+      {
+        "grade": "E",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "ON",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 154
+      },
+      {
+        "grade": "A",
+        "min_mark": 134
+      },
+      {
+        "grade": "B",
+        "min_mark": 114
+      },
+      {
+        "grade": "C",
+        "min_mark": 94
+      },
+      {
+        "grade": "D",
+        "min_mark": 80
+      },
+      {
+        "grade": "E",
+        "min_mark": 66
+      },
+      {
+        "grade": "F",
+        "min_mark": 52
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "ON",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 150
+      },
+      {
+        "grade": "A",
+        "min_mark": 127
+      },
+      {
+        "grade": "B",
+        "min_mark": 104
+      },
+      {
+        "grade": "C",
+        "min_mark": 82
+      },
+      {
+        "grade": "D",
+        "min_mark": 70
+      },
+      {
+        "grade": "E",
+        "min_mark": 59
+      },
+      {
+        "grade": "F",
+        "min_mark": 48
+      },
+      {
+        "grade": "G",
+        "min_mark": 37
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "ON",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 131
+      },
+      {
+        "grade": "A",
+        "min_mark": 111
+      },
+      {
+        "grade": "B",
+        "min_mark": 91
+      },
+      {
+        "grade": "C",
+        "min_mark": 72
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 45
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "ON",
+    "year": 2022,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 138
+      },
+      {
+        "grade": "A",
+        "min_mark": 116
+      },
+      {
+        "grade": "B",
+        "min_mark": 94
+      },
+      {
+        "grade": "C",
+        "min_mark": 73
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 55
+      },
+      {
+        "grade": "F",
+        "min_mark": 47
+      },
+      {
+        "grade": "G",
+        "min_mark": 39
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "EY",
+    "max_mark": 280,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 209
+      },
+      {
+        "grade": "A",
+        "min_mark": 175
+      },
+      {
+        "grade": "B",
+        "min_mark": 141
+      },
+      {
+        "grade": "C",
+        "min_mark": 108
+      },
+      {
+        "grade": "D",
+        "min_mark": 88
+      },
+      {
+        "grade": "E",
+        "min_mark": 68
+      },
+      {
+        "grade": "F",
+        "min_mark": 48
+      },
+      {
+        "grade": "G",
+        "min_mark": 28
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 102
+      },
+      {
+        "grade": "A",
+        "min_mark": 85
+      },
+      {
+        "grade": "B",
+        "min_mark": 68
+      },
+      {
+        "grade": "C",
+        "min_mark": 51
+      },
+      {
+        "grade": "D",
+        "min_mark": 42
+      },
+      {
+        "grade": "E",
+        "min_mark": 33
+      },
+      {
+        "grade": "F",
+        "min_mark": 25
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 108
+      },
+      {
+        "grade": "A",
+        "min_mark": 87
+      },
+      {
+        "grade": "B",
+        "min_mark": 66
+      },
+      {
+        "grade": "C",
+        "min_mark": 45
+      },
+      {
+        "grade": "D",
+        "min_mark": 37
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 23
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 125
+      },
+      {
+        "grade": "A",
+        "min_mark": 105
+      },
+      {
+        "grade": "B",
+        "min_mark": 85
+      },
+      {
+        "grade": "C",
+        "min_mark": 65
+      },
+      {
+        "grade": "D",
+        "min_mark": 54
+      },
+      {
+        "grade": "E",
+        "min_mark": 44
+      },
+      {
+        "grade": "F",
+        "min_mark": 34
+      },
+      {
+        "grade": "G",
+        "min_mark": 24
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 175
+      },
+      {
+        "grade": "A",
+        "min_mark": 153
+      },
+      {
+        "grade": "B",
+        "min_mark": 131
+      },
+      {
+        "grade": "C",
+        "min_mark": 109
+      },
+      {
+        "grade": "D",
+        "min_mark": 92
+      },
+      {
+        "grade": "E",
+        "min_mark": 76
+      },
+      {
+        "grade": "F",
+        "min_mark": 60
+      },
+      {
+        "grade": "G",
+        "min_mark": 44
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 112
+      },
+      {
+        "grade": "A",
+        "min_mark": 97
+      },
+      {
+        "grade": "B",
+        "min_mark": 82
+      },
+      {
+        "grade": "C",
+        "min_mark": 67
+      },
+      {
+        "grade": "D",
+        "min_mark": 55
+      },
+      {
+        "grade": "E",
+        "min_mark": 44
+      },
+      {
+        "grade": "F",
+        "min_mark": 33
+      },
+      {
+        "grade": "G",
+        "min_mark": 22
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 69
+      },
+      {
+        "grade": "A",
+        "min_mark": 59
+      },
+      {
+        "grade": "B",
+        "min_mark": 49
+      },
+      {
+        "grade": "C",
+        "min_mark": 40
+      },
+      {
+        "grade": "D",
+        "min_mark": 34
+      },
+      {
+        "grade": "E",
+        "min_mark": 28
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 105
+      },
+      {
+        "grade": "A",
+        "min_mark": 85
+      },
+      {
+        "grade": "B",
+        "min_mark": 65
+      },
+      {
+        "grade": "C",
+        "min_mark": 46
+      },
+      {
+        "grade": "D",
+        "min_mark": 37
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 122
+      },
+      {
+        "grade": "A",
+        "min_mark": 105
+      },
+      {
+        "grade": "B",
+        "min_mark": 88
+      },
+      {
+        "grade": "C",
+        "min_mark": 72
+      },
+      {
+        "grade": "D",
+        "min_mark": 57
+      },
+      {
+        "grade": "E",
+        "min_mark": 42
+      },
+      {
+        "grade": "F",
+        "min_mark": 29
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 112
+      },
+      {
+        "grade": "A",
+        "min_mark": 100
+      },
+      {
+        "grade": "B",
+        "min_mark": 88
+      },
+      {
+        "grade": "C",
+        "min_mark": 76
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 52
+      },
+      {
+        "grade": "F",
+        "min_mark": 39
+      },
+      {
+        "grade": "G",
+        "min_mark": 26
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 166
+      },
+      {
+        "grade": "A",
+        "min_mark": 142
+      },
+      {
+        "grade": "B",
+        "min_mark": 118
+      },
+      {
+        "grade": "C",
+        "min_mark": 94
+      },
+      {
+        "grade": "D",
+        "min_mark": 79
+      },
+      {
+        "grade": "E",
+        "min_mark": 64
+      },
+      {
+        "grade": "F",
+        "min_mark": 51
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0549",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "A",
+    "max_mark": 90,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 75
+      },
+      {
+        "grade": "A",
+        "min_mark": 65
+      },
+      {
+        "grade": "B",
+        "min_mark": 55
+      },
+      {
+        "grade": "C",
+        "min_mark": 45
+      },
+      {
+        "grade": "D",
+        "min_mark": 38
+      },
+      {
+        "grade": "E",
+        "min_mark": 31
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2023,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 109
+      },
+      {
+        "grade": "D",
+        "min_mark": 90
+      },
+      {
+        "grade": "E",
+        "min_mark": 71
+      },
+      {
+        "grade": "F",
+        "min_mark": 52
+      },
+      {
+        "grade": "G",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 173
+      },
+      {
+        "grade": "A",
+        "min_mark": 146
+      },
+      {
+        "grade": "B",
+        "min_mark": 118
+      },
+      {
+        "grade": "C",
+        "min_mark": 91
+      },
+      {
+        "grade": "D",
+        "min_mark": 76
+      },
+      {
+        "grade": "E",
+        "min_mark": 62
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "ON",
+    "year": 2023,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 143
+      },
+      {
+        "grade": "A",
+        "min_mark": 126
+      },
+      {
+        "grade": "B",
+        "min_mark": 87
+      },
+      {
+        "grade": "C",
+        "min_mark": 49
+      },
+      {
+        "grade": "D",
+        "min_mark": 37
+      },
+      {
+        "grade": "E",
+        "min_mark": 26
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "ON",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 161
+      },
+      {
+        "grade": "A",
+        "min_mark": 138
+      },
+      {
+        "grade": "B",
+        "min_mark": 115
+      },
+      {
+        "grade": "C",
+        "min_mark": 93
+      },
+      {
+        "grade": "D",
+        "min_mark": 80
+      },
+      {
+        "grade": "E",
+        "min_mark": 68
+      },
+      {
+        "grade": "F",
+        "min_mark": 56
+      },
+      {
+        "grade": "G",
+        "min_mark": 44
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "ON",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 148
+      },
+      {
+        "grade": "A",
+        "min_mark": 125
+      },
+      {
+        "grade": "B",
+        "min_mark": 102
+      },
+      {
+        "grade": "C",
+        "min_mark": 79
+      },
+      {
+        "grade": "D",
+        "min_mark": 68
+      },
+      {
+        "grade": "E",
+        "min_mark": 57
+      },
+      {
+        "grade": "F",
+        "min_mark": 46
+      },
+      {
+        "grade": "G",
+        "min_mark": 35
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "ON",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 138
+      },
+      {
+        "grade": "A",
+        "min_mark": 117
+      },
+      {
+        "grade": "B",
+        "min_mark": 96
+      },
+      {
+        "grade": "C",
+        "min_mark": 76
+      },
+      {
+        "grade": "D",
+        "min_mark": 66
+      },
+      {
+        "grade": "E",
+        "min_mark": 56
+      },
+      {
+        "grade": "F",
+        "min_mark": 47
+      },
+      {
+        "grade": "G",
+        "min_mark": 38
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "ON",
+    "year": 2023,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 151
+      },
+      {
+        "grade": "A",
+        "min_mark": 126
+      },
+      {
+        "grade": "B",
+        "min_mark": 101
+      },
+      {
+        "grade": "C",
+        "min_mark": 77
+      },
+      {
+        "grade": "D",
+        "min_mark": 67
+      },
+      {
+        "grade": "E",
+        "min_mark": 57
+      },
+      {
+        "grade": "F",
+        "min_mark": 48
+      },
+      {
+        "grade": "G",
+        "min_mark": 39
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "EY",
+    "max_mark": 280,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 196
+      },
+      {
+        "grade": "A",
+        "min_mark": 162
+      },
+      {
+        "grade": "B",
+        "min_mark": 128
+      },
+      {
+        "grade": "C",
+        "min_mark": 94
+      },
+      {
+        "grade": "D",
+        "min_mark": 78
+      },
+      {
+        "grade": "E",
+        "min_mark": 63
+      },
+      {
+        "grade": "F",
+        "min_mark": 48
+      },
+      {
+        "grade": "G",
+        "min_mark": 33
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0450",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 102
+      },
+      {
+        "grade": "A",
+        "min_mark": 85
+      },
+      {
+        "grade": "B",
+        "min_mark": 68
+      },
+      {
+        "grade": "C",
+        "min_mark": 52
+      },
+      {
+        "grade": "D",
+        "min_mark": 43
+      },
+      {
+        "grade": "E",
+        "min_mark": 35
+      },
+      {
+        "grade": "F",
+        "min_mark": 27
+      },
+      {
+        "grade": "G",
+        "min_mark": 19
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 111
+      },
+      {
+        "grade": "A",
+        "min_mark": 88
+      },
+      {
+        "grade": "B",
+        "min_mark": 65
+      },
+      {
+        "grade": "C",
+        "min_mark": 43
+      },
+      {
+        "grade": "D",
+        "min_mark": 36
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 124
+      },
+      {
+        "grade": "A",
+        "min_mark": 107
+      },
+      {
+        "grade": "B",
+        "min_mark": 90
+      },
+      {
+        "grade": "C",
+        "min_mark": 73
+      },
+      {
+        "grade": "D",
+        "min_mark": 62
+      },
+      {
+        "grade": "E",
+        "min_mark": 52
+      },
+      {
+        "grade": "F",
+        "min_mark": 41
+      },
+      {
+        "grade": "G",
+        "min_mark": 31
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 188
+      },
+      {
+        "grade": "A",
+        "min_mark": 165
+      },
+      {
+        "grade": "B",
+        "min_mark": 142
+      },
+      {
+        "grade": "C",
+        "min_mark": 119
+      },
+      {
+        "grade": "D",
+        "min_mark": 100
+      },
+      {
+        "grade": "E",
+        "min_mark": 82
+      },
+      {
+        "grade": "F",
+        "min_mark": 66
+      },
+      {
+        "grade": "G",
+        "min_mark": 50
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 113
+      },
+      {
+        "grade": "A",
+        "min_mark": 100
+      },
+      {
+        "grade": "B",
+        "min_mark": 87
+      },
+      {
+        "grade": "C",
+        "min_mark": 74
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 45
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 71
+      },
+      {
+        "grade": "A",
+        "min_mark": 61
+      },
+      {
+        "grade": "B",
+        "min_mark": 51
+      },
+      {
+        "grade": "C",
+        "min_mark": 42
+      },
+      {
+        "grade": "D",
+        "min_mark": 36
+      },
+      {
+        "grade": "E",
+        "min_mark": 30
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 107
+      },
+      {
+        "grade": "A",
+        "min_mark": 88
+      },
+      {
+        "grade": "B",
+        "min_mark": 69
+      },
+      {
+        "grade": "C",
+        "min_mark": 51
+      },
+      {
+        "grade": "D",
+        "min_mark": 42
+      },
+      {
+        "grade": "E",
+        "min_mark": 33
+      },
+      {
+        "grade": "F",
+        "min_mark": 24
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 122
+      },
+      {
+        "grade": "A",
+        "min_mark": 103
+      },
+      {
+        "grade": "B",
+        "min_mark": 84
+      },
+      {
+        "grade": "C",
+        "min_mark": 65
+      },
+      {
+        "grade": "D",
+        "min_mark": 52
+      },
+      {
+        "grade": "E",
+        "min_mark": 39
+      },
+      {
+        "grade": "F",
+        "min_mark": 27
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 113
+      },
+      {
+        "grade": "A",
+        "min_mark": 101
+      },
+      {
+        "grade": "B",
+        "min_mark": 89
+      },
+      {
+        "grade": "C",
+        "min_mark": 77
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 50
+      },
+      {
+        "grade": "F",
+        "min_mark": 36
+      },
+      {
+        "grade": "G",
+        "min_mark": 22
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 165
+      },
+      {
+        "grade": "A",
+        "min_mark": 142
+      },
+      {
+        "grade": "B",
+        "min_mark": 119
+      },
+      {
+        "grade": "C",
+        "min_mark": 97
+      },
+      {
+        "grade": "D",
+        "min_mark": 81
+      },
+      {
+        "grade": "E",
+        "min_mark": 66
+      },
+      {
+        "grade": "F",
+        "min_mark": 51
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0549",
+    "season": "ON",
+    "year": 2024,
+    "tier": null,
+    "option_code": "A",
+    "max_mark": 90,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 70
+      },
+      {
+        "grade": "A",
+        "min_mark": 61
+      },
+      {
+        "grade": "B",
+        "min_mark": 52
+      },
+      {
+        "grade": "C",
+        "min_mark": 43
+      },
+      {
+        "grade": "D",
+        "min_mark": 36
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 23
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2024,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 103
+      },
+      {
+        "grade": "D",
+        "min_mark": 87
+      },
+      {
+        "grade": "E",
+        "min_mark": 72
+      },
+      {
+        "grade": "F",
+        "min_mark": 57
+      },
+      {
+        "grade": "G",
+        "min_mark": 42
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 180
+      },
+      {
+        "grade": "A",
+        "min_mark": 160
+      },
+      {
+        "grade": "B",
+        "min_mark": 130
       },
       {
         "grade": "C",
@@ -3097,129 +8083,239 @@
       },
       {
         "grade": "E",
-        "min_mark": 65
-      },
-      {
-        "grade": "F",
-        "min_mark": 48
-      },
-      {
-        "grade": "G",
-        "min_mark": 31
+        "min_mark": 64
       }
     ]
   },
   {
-    "syllabus_code": "0417",
-    "season": "FM",
-    "year": 2022,
-    "tier": null,
-    "option_code": "AY",
-    "max_mark": 300,
-    "grades": [
-      {
-        "grade": "A*",
-        "min_mark": 197
-      },
-      {
-        "grade": "A",
-        "min_mark": 162
-      },
-      {
-        "grade": "B",
-        "min_mark": 127
-      },
-      {
-        "grade": "C",
-        "min_mark": 92
-      },
-      {
-        "grade": "D",
-        "min_mark": 76
-      },
-      {
-        "grade": "E",
-        "min_mark": 61
-      },
-      {
-        "grade": "F",
-        "min_mark": 46
-      },
-      {
-        "grade": "G",
-        "min_mark": 31
-      }
-    ]
-  },
-  {
-    "syllabus_code": "0417",
-    "season": "FM",
-    "year": 2023,
-    "tier": null,
-    "option_code": "AY",
-    "max_mark": 280,
-    "grades": [
-      {
-        "grade": "A*",
-        "min_mark": 207
-      },
-      {
-        "grade": "A",
-        "min_mark": 174
-      },
-      {
-        "grade": "B",
-        "min_mark": 141
-      },
-      {
-        "grade": "C",
-        "min_mark": 109
-      },
-      {
-        "grade": "D",
-        "min_mark": 93
-      },
-      {
-        "grade": "E",
-        "min_mark": 78
-      },
-      {
-        "grade": "F",
-        "min_mark": 63
-      },
-      {
-        "grade": "G",
-        "min_mark": 48
-      }
-    ]
-  },
-  {
-    "syllabus_code": "0417",
-    "season": "FM",
+    "syllabus_code": "0606",
+    "season": "ON",
     "year": 2024,
     "tier": null,
     "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 135
+      },
+      {
+        "grade": "A",
+        "min_mark": 110
+      },
+      {
+        "grade": "B",
+        "min_mark": 73
+      },
+      {
+        "grade": "C",
+        "min_mark": 37
+      },
+      {
+        "grade": "D",
+        "min_mark": 28
+      },
+      {
+        "grade": "E",
+        "min_mark": 19
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "ON",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 170
+      },
+      {
+        "grade": "A",
+        "min_mark": 147
+      },
+      {
+        "grade": "B",
+        "min_mark": 124
+      },
+      {
+        "grade": "C",
+        "min_mark": 101
+      },
+      {
+        "grade": "D",
+        "min_mark": 87
+      },
+      {
+        "grade": "E",
+        "min_mark": 73
+      },
+      {
+        "grade": "F",
+        "min_mark": 60
+      },
+      {
+        "grade": "G",
+        "min_mark": 47
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "ON",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 156
+      },
+      {
+        "grade": "A",
+        "min_mark": 131
+      },
+      {
+        "grade": "B",
+        "min_mark": 106
+      },
+      {
+        "grade": "C",
+        "min_mark": 82
+      },
+      {
+        "grade": "D",
+        "min_mark": 70
+      },
+      {
+        "grade": "E",
+        "min_mark": 58
+      },
+      {
+        "grade": "F",
+        "min_mark": 47
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "ON",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 144
+      },
+      {
+        "grade": "A",
+        "min_mark": 122
+      },
+      {
+        "grade": "B",
+        "min_mark": 100
+      },
+      {
+        "grade": "C",
+        "min_mark": 79
+      },
+      {
+        "grade": "D",
+        "min_mark": 69
+      },
+      {
+        "grade": "E",
+        "min_mark": 59
+      },
+      {
+        "grade": "F",
+        "min_mark": 49
+      },
+      {
+        "grade": "G",
+        "min_mark": 39
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "ON",
+    "year": 2024,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 155
+      },
+      {
+        "grade": "A",
+        "min_mark": 131
+      },
+      {
+        "grade": "B",
+        "min_mark": 107
+      },
+      {
+        "grade": "C",
+        "min_mark": 83
+      },
+      {
+        "grade": "D",
+        "min_mark": 71
+      },
+      {
+        "grade": "E",
+        "min_mark": 60
+      },
+      {
+        "grade": "F",
+        "min_mark": 50
+      },
+      {
+        "grade": "G",
+        "min_mark": 40
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0417",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "EY",
     "max_mark": 280,
     "grades": [
       {
         "grade": "A*",
-        "min_mark": 210
+        "min_mark": 198
       },
       {
         "grade": "A",
-        "min_mark": 178
+        "min_mark": 169
       },
       {
         "grade": "B",
-        "min_mark": 146
+        "min_mark": 140
       },
       {
         "grade": "C",
-        "min_mark": 115
+        "min_mark": 111
       },
       {
         "grade": "D",
-        "min_mark": 96
+        "min_mark": 94
       },
       {
         "grade": "E",
@@ -3236,36 +8332,162 @@
     ]
   },
   {
-    "syllabus_code": "0417",
-    "season": "FM",
+    "syllabus_code": "0450",
+    "season": "ON",
     "year": 2025,
     "tier": null,
-    "option_code": "AY",
-    "max_mark": 280,
+    "option_code": "Y",
+    "max_mark": 160,
     "grades": [
       {
         "grade": "A*",
-        "min_mark": 212
-      },
-      {
-        "grade": "A",
-        "min_mark": 182
-      },
-      {
-        "grade": "B",
-        "min_mark": 152
-      },
-      {
-        "grade": "C",
-        "min_mark": 123
-      },
-      {
-        "grade": "D",
         "min_mark": 105
       },
       {
-        "grade": "E",
+        "grade": "A",
         "min_mark": 87
+      },
+      {
+        "grade": "B",
+        "min_mark": 69
+      },
+      {
+        "grade": "C",
+        "min_mark": 52
+      },
+      {
+        "grade": "D",
+        "min_mark": 42
+      },
+      {
+        "grade": "E",
+        "min_mark": 33
+      },
+      {
+        "grade": "F",
+        "min_mark": 25
+      },
+      {
+        "grade": "G",
+        "min_mark": 17
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0452",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 143,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 107
+      },
+      {
+        "grade": "A",
+        "min_mark": 87
+      },
+      {
+        "grade": "B",
+        "min_mark": 67
+      },
+      {
+        "grade": "C",
+        "min_mark": 48
+      },
+      {
+        "grade": "D",
+        "min_mark": 40
+      },
+      {
+        "grade": "E",
+        "min_mark": 32
+      },
+      {
+        "grade": "F",
+        "min_mark": 25
+      },
+      {
+        "grade": "G",
+        "min_mark": 18
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0455",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 126
+      },
+      {
+        "grade": "A",
+        "min_mark": 105
+      },
+      {
+        "grade": "B",
+        "min_mark": 84
+      },
+      {
+        "grade": "C",
+        "min_mark": 64
+      },
+      {
+        "grade": "D",
+        "min_mark": 52
+      },
+      {
+        "grade": "E",
+        "min_mark": 41
+      },
+      {
+        "grade": "F",
+        "min_mark": 31
+      },
+      {
+        "grade": "G",
+        "min_mark": 21
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0460",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 220,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 189
+      },
+      {
+        "grade": "A",
+        "min_mark": 166
+      },
+      {
+        "grade": "B",
+        "min_mark": 143
+      },
+      {
+        "grade": "C",
+        "min_mark": 121
+      },
+      {
+        "grade": "D",
+        "min_mark": 103
+      },
+      {
+        "grade": "E",
+        "min_mark": 86
       },
       {
         "grade": "F",
@@ -3273,7 +8495,567 @@
       },
       {
         "grade": "G",
+        "min_mark": 54
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0470",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 110
+      },
+      {
+        "grade": "A",
+        "min_mark": 97
+      },
+      {
+        "grade": "B",
+        "min_mark": 84
+      },
+      {
+        "grade": "C",
+        "min_mark": 72
+      },
+      {
+        "grade": "D",
+        "min_mark": 62
+      },
+      {
+        "grade": "E",
+        "min_mark": 52
+      },
+      {
+        "grade": "F",
+        "min_mark": 43
+      },
+      {
+        "grade": "G",
+        "min_mark": 34
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0475",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 100,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 71
+      },
+      {
+        "grade": "A",
+        "min_mark": 62
+      },
+      {
+        "grade": "B",
         "min_mark": 53
+      },
+      {
+        "grade": "C",
+        "min_mark": 44
+      },
+      {
+        "grade": "D",
+        "min_mark": 37
+      },
+      {
+        "grade": "E",
+        "min_mark": 30
+      },
+      {
+        "grade": "F",
+        "min_mark": 23
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0478",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 150,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 104
+      },
+      {
+        "grade": "A",
+        "min_mark": 84
+      },
+      {
+        "grade": "B",
+        "min_mark": 64
+      },
+      {
+        "grade": "C",
+        "min_mark": 45
+      },
+      {
+        "grade": "D",
+        "min_mark": 37
+      },
+      {
+        "grade": "E",
+        "min_mark": 29
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 15
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0495",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 129
+      },
+      {
+        "grade": "A",
+        "min_mark": 109
+      },
+      {
+        "grade": "B",
+        "min_mark": 89
+      },
+      {
+        "grade": "C",
+        "min_mark": 69
+      },
+      {
+        "grade": "D",
+        "min_mark": 56
+      },
+      {
+        "grade": "E",
+        "min_mark": 44
+      },
+      {
+        "grade": "F",
+        "min_mark": 32
+      },
+      {
+        "grade": "G",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0500",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "BR",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 116
+      },
+      {
+        "grade": "A",
+        "min_mark": 103
+      },
+      {
+        "grade": "B",
+        "min_mark": 90
+      },
+      {
+        "grade": "C",
+        "min_mark": 78
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 51
+      },
+      {
+        "grade": "F",
+        "min_mark": 37
+      },
+      {
+        "grade": "G",
+        "min_mark": 23
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0520",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "Y",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 165
+      },
+      {
+        "grade": "A",
+        "min_mark": 142
+      },
+      {
+        "grade": "B",
+        "min_mark": 119
+      },
+      {
+        "grade": "C",
+        "min_mark": 96
+      },
+      {
+        "grade": "D",
+        "min_mark": 81
+      },
+      {
+        "grade": "E",
+        "min_mark": 66
+      },
+      {
+        "grade": "F",
+        "min_mark": 51
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0549",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "A",
+    "max_mark": 90,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 69
+      },
+      {
+        "grade": "A",
+        "min_mark": 60
+      },
+      {
+        "grade": "B",
+        "min_mark": 51
+      },
+      {
+        "grade": "C",
+        "min_mark": 42
+      },
+      {
+        "grade": "D",
+        "min_mark": 35
+      },
+      {
+        "grade": "E",
+        "min_mark": 28
+      },
+      {
+        "grade": "F",
+        "min_mark": 22
+      },
+      {
+        "grade": "G",
+        "min_mark": 16
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2025,
+    "tier": "Core",
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "C",
+        "min_mark": 89
+      },
+      {
+        "grade": "D",
+        "min_mark": 73
+      },
+      {
+        "grade": "E",
+        "min_mark": 58
+      },
+      {
+        "grade": "F",
+        "min_mark": 43
+      },
+      {
+        "grade": "G",
+        "min_mark": 28
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0580",
+    "season": "ON",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 169
+      },
+      {
+        "grade": "A",
+        "min_mark": 140
+      },
+      {
+        "grade": "B",
+        "min_mark": 111
+      },
+      {
+        "grade": "C",
+        "min_mark": 82
+      },
+      {
+        "grade": "D",
+        "min_mark": 66
+      },
+      {
+        "grade": "E",
+        "min_mark": 50
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0606",
+    "season": "ON",
+    "year": 2025,
+    "tier": null,
+    "option_code": "AY",
+    "max_mark": 160,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 136
+      },
+      {
+        "grade": "A",
+        "min_mark": 113
+      },
+      {
+        "grade": "B",
+        "min_mark": 76
+      },
+      {
+        "grade": "C",
+        "min_mark": 39
+      },
+      {
+        "grade": "D",
+        "min_mark": 29
+      },
+      {
+        "grade": "E",
+        "min_mark": 20
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0610",
+    "season": "ON",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 163
+      },
+      {
+        "grade": "A",
+        "min_mark": 138
+      },
+      {
+        "grade": "B",
+        "min_mark": 113
+      },
+      {
+        "grade": "C",
+        "min_mark": 89
+      },
+      {
+        "grade": "D",
+        "min_mark": 76
+      },
+      {
+        "grade": "E",
+        "min_mark": 63
+      },
+      {
+        "grade": "F",
+        "min_mark": 52
+      },
+      {
+        "grade": "G",
+        "min_mark": 41
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0620",
+    "season": "ON",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 153
+      },
+      {
+        "grade": "A",
+        "min_mark": 127
+      },
+      {
+        "grade": "B",
+        "min_mark": 101
+      },
+      {
+        "grade": "C",
+        "min_mark": 76
+      },
+      {
+        "grade": "D",
+        "min_mark": 63
+      },
+      {
+        "grade": "E",
+        "min_mark": 50
+      },
+      {
+        "grade": "F",
+        "min_mark": 39
+      },
+      {
+        "grade": "G",
+        "min_mark": 28
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0625",
+    "season": "ON",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 145
+      },
+      {
+        "grade": "A",
+        "min_mark": 125
+      },
+      {
+        "grade": "B",
+        "min_mark": 105
+      },
+      {
+        "grade": "C",
+        "min_mark": 85
+      },
+      {
+        "grade": "D",
+        "min_mark": 73
+      },
+      {
+        "grade": "E",
+        "min_mark": 61
+      },
+      {
+        "grade": "F",
+        "min_mark": 51
+      },
+      {
+        "grade": "G",
+        "min_mark": 41
+      }
+    ]
+  },
+  {
+    "syllabus_code": "0653",
+    "season": "ON",
+    "year": 2025,
+    "tier": "Extended",
+    "option_code": "BY",
+    "max_mark": 200,
+    "grades": [
+      {
+        "grade": "A*",
+        "min_mark": 151
+      },
+      {
+        "grade": "A",
+        "min_mark": 125
+      },
+      {
+        "grade": "B",
+        "min_mark": 99
+      },
+      {
+        "grade": "C",
+        "min_mark": 74
+      },
+      {
+        "grade": "D",
+        "min_mark": 64
+      },
+      {
+        "grade": "E",
+        "min_mark": 54
+      },
+      {
+        "grade": "F",
+        "min_mark": 45
+      },
+      {
+        "grade": "G",
+        "min_mark": 36
       }
     ]
   }
