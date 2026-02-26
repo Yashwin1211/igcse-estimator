@@ -140,16 +140,16 @@ export default function LandingPage() {
             className="font-display font-light mb-6"
             style={{ fontSize: 'clamp(52px, 8vw, 96px)', letterSpacing: '-0.02em', lineHeight: 1.05, color: '#F5F5F0' }}
           >
-            Know where
+            Calculate your
             <br />
-            <span className="text-gradient-gold italic">you stand.</span>
+            <span className="text-gradient-gold italic">IGCSE grades.</span>
           </h1>
 
           <p
             className="text-lg md:text-xl mb-10 max-w-xl mx-auto leading-relaxed"
             style={{ fontFamily: 'var(--font-sans)', color: '#888' }}
           >
-            Estimate your IGCSE grades using five years of Cambridge grade
+            Free IGCSE grade calculator using five years of Cambridge grade
             boundary data — weighted, averaged, and mapped to your marks.
           </p>
 
@@ -264,7 +264,7 @@ export default function LandingPage() {
               Process
             </div>
             <h2 className="font-display font-light" style={{ fontSize: 'clamp(32px, 5vw, 52px)', color: '#F5F5F0' }}>
-              Four steps to clarity
+              How our IGCSE grade calculator works
             </h2>
           </motion.div>
 
@@ -336,9 +336,9 @@ export default function LandingPage() {
                 className="font-display font-light mb-8"
                 style={{ fontSize: 'clamp(28px, 4vw, 44px)', color: '#F5F5F0' }}
               >
-                Five years of boundaries,
+                IGCSE grade boundaries calculator
                 <br />
-                weighted for relevance.
+                built on five years of data.
               </h2>
               <p
                 className="text-sm leading-relaxed mb-5"
@@ -456,7 +456,7 @@ export default function LandingPage() {
                 Threshold
               </div>
               <p className="text-xs leading-relaxed" style={{ color: '#555', fontFamily: 'var(--font-sans)' }}>
-                Cambridge IGCSE grade estimation built on five years of boundary data across all three exam sessions.
+                Free IGCSE grade boundaries calculator built on five years of Cambridge boundary data across all three exam sessions (FM, MJ, ON).
               </p>
             </div>
 

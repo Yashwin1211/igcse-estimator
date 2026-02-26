@@ -13,14 +13,14 @@ export function BackgroundAura() {
       <motion.div
         style={{
           position: 'absolute',
-          width: 800,
-          height: 800,
+          width: 700,
+          height: 700,
           background:
             'radial-gradient(ellipse at 38% 38%, rgba(255,248,220,0.04) 0%, rgba(201,169,110,0.13) 28%, rgba(170,120,40,0.05) 58%, transparent 75%)',
-          filter: 'blur(90px)',
+          filter: 'blur(60px)',
           left: -250,
           top: -250,
-          animation: 'blob-morph-gold 22s ease-in-out infinite',
+          willChange: 'transform',
         }}
         animate={{
           x: [0, 140, 70, -40, 110, 0],
@@ -33,14 +33,14 @@ export function BackgroundAura() {
       <motion.div
         style={{
           position: 'absolute',
-          width: 700,
-          height: 700,
+          width: 600,
+          height: 600,
           background:
             'radial-gradient(ellipse at 62% 62%, rgba(220,235,255,0.03) 0%, rgba(90,115,190,0.10) 32%, rgba(60,80,160,0.04) 62%, transparent 80%)',
-          filter: 'blur(110px)',
+          filter: 'blur(70px)',
           right: -200,
           bottom: -200,
-          animation: 'blob-morph-blue 28s ease-in-out 4s infinite',
+          willChange: 'transform',
         }}
         animate={{
           x: [0, -110, -50, 70, -90, 0],
@@ -53,19 +53,19 @@ export function BackgroundAura() {
       <motion.div
         style={{
           position: 'absolute',
-          width: 550,
-          height: 550,
+          width: 450,
+          height: 450,
           background:
             'radial-gradient(ellipse at 42% 38%, rgba(255,240,200,0.03) 0%, rgba(195,135,65,0.09) 34%, rgba(150,90,30,0.04) 62%, transparent 80%)',
-          filter: 'blur(130px)',
+          filter: 'blur(80px)',
           left: '36vw',
           top: '32vh',
-          animation: 'blob-morph-amber 32s ease-in-out 10s infinite',
+          willChange: 'transform',
         }}
         animate={{
           x: [0, 160, 60, -90, 120, 0],
           y: [0, -100, 80, -60, 40, 0],
-          scale: [1, 1.14, 0.90, 1.10, 0.96, 1],
+          scale: [1, 1.10, 0.95, 1.05, 0.98, 1],
         }}
         transition={{ duration: 32, repeat: Infinity, ease: 'easeInOut', delay: 10 }}
       />
@@ -74,14 +74,14 @@ export function BackgroundAura() {
       <motion.div
         style={{
           position: 'absolute',
-          width: 500,
-          height: 500,
+          width: 400,
+          height: 400,
           background:
             'radial-gradient(ellipse at 55% 45%, rgba(200,180,255,0.02) 0%, rgba(130,100,200,0.07) 35%, transparent 70%)',
-          filter: 'blur(140px)',
+          filter: 'blur(90px)',
           right: -100,
           top: -100,
-          animation: 'blob-morph-blue 36s ease-in-out 16s infinite',
+          willChange: 'transform',
         }}
         animate={{
           x: [0, -80, 40, -120, 0],
