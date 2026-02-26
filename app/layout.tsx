@@ -69,6 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
       <head>
+        <meta name="google-site-verification" content="pwWDfBBsayJZBBIAscvAhDskSYxuz7HNGbO7G833Fyc" />
         <StructuredData />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER123"></script>
