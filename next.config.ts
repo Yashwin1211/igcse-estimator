@@ -66,7 +66,7 @@ const nextConfig: NextConfig = {
   },
 
   // Optimize output for faster loading
-  output: 'standalone',
+  // output: 'standalone', // Temporarily disabled to fix static file serving
 
   // Webpack optimizations
   webpack: (config, { dev, isServer }) => {
