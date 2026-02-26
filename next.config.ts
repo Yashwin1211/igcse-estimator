@@ -68,6 +68,9 @@ const nextConfig: NextConfig = {
   // Optimize output for faster loading
   // output: 'standalone', // Temporarily disabled to fix static file serving
 
+  // Add empty turbopack config to silence the error
+  turbopack: {},
+
   // Webpack optimizations
   webpack: (config, { dev, isServer }) => {
     // Production optimizations
