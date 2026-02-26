@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   viewport: 'width=device-width, initial-scale=1',
   verification: {
-    google: 'e94d042c42967079'
+    google: 'pwWDfBBsayJZBBIAscvAhDskSYxuz7HNGbO7G833Fyc'
   },
 
   // Icons and favicons
